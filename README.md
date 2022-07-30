@@ -239,7 +239,7 @@ You can either connect through a database client like Workbench
 
 Or you can do it through the cli: 
 ```shell script
-mysql --host=127.0.0.1 --port=32001 -u root -p
+$ mysql --host=127.0.0.1 --port=32001 -u root -p
 ```
 Make sure to change the port according to the one defined in your `docker-compose.yml` file and the password
 will be the one defined in the `MYSQL_ROOT_PASSWORD` variable.
@@ -283,5 +283,5 @@ Don't forget to check the evaluation rubric to make sure you are not missing any
 when you are done with the lab.
 
 ```
-docker-compose down 
+$ docker-compose down 
 ```
