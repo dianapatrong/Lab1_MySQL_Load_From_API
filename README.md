@@ -89,9 +89,10 @@ We are going to use mainly 4 modules:
 * pandas - to load our json into a DataFrame 
 * sqlalchemy - to make the connection between Python and MySQL
 
-Create a new virtual environment and install the requirements: 
+Create a new virtual environment, activate it and install the requirements: 
 ```shell script
-python3 -m venv /path/to/new/virtual/environment.
+python3 -m venv /path/to/new/virtual/environment
+source /newvirtualenvironment/bin/activate
 pip install -r requirements.txt
 ```
 
