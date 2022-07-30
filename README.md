@@ -278,4 +278,9 @@ The parameters that we need:
 Now that you are all set, execute your python script and load the data into each of their tables. 
 Commit all your exercises and upload them to .... AWS CodeCommit? 
 
-Don't forget to check the evaluation rubric to make sure you are not missing anything!! 
+Don't forget to check the evaluation rubric to make sure you are not missing anything and to stop your container
+when you are done with the lab.
+
+```
+docker-compose down 
+```
