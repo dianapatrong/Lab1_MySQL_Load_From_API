@@ -2,3 +2,5 @@ venv/
 config.ini
 __pycache__/
 .idea/
+create_nba_tables.sql
+docker-compose.yml
