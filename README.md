@@ -117,7 +117,7 @@ host = your_host
 ```
 
 >NOTE: We are going to read from the `config.ini` file and reference such values in our python 
->code so nobody but us have access to it. 
+>code so nobody but us have access to it. Take a look at `config.py` to see how.
 
 
 ### 2.4 Let's call the API 
